@@ -6,9 +6,9 @@ This repository contains my Week 1 internship project: cleaning the Superstore s
 
 - **Source:** Kaggle – [Superstore Sales Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
 - **File:** `train.csv`
-- **Original rows:** 9,801
-- **Original columns:** 21
-- **Description:** The dataset contains sales transactions for a global superstore, including fields like Order ID, Order Date, Ship Mode, Customer ID, Product ID, Sales, Quantity, Discount, Profit, etc.
+- **Original rows:** 9,800
+- **Original columns:** 18
+- **Description:** The dataset contains sales transactions for a global superstore, including fields like Order ID, Order Date, Ship Mode, Customer ID, Product ID, Sales, etc.
 
 ## 🧹 Cleaning Steps Performed
 
@@ -29,7 +29,7 @@ This repository contains my Week 1 internship project: cleaning the Superstore s
 ## 📊 Cleaned Dataset
 
 The cleaned dataset is available as `cleaned_superstore.csv` in this repository.  
-It contains **9,762 rows** (9,801 – 11 blanks – 8 duplicates) and **20 columns** (original 18 + 2 new features).
+It contains **9,781 rows** (9,800 – 11 blanks – 8 duplicates) and **20 columns** (original 18 + 2 new features).
 
 [⬇️ Download cleaned_superstore.csv](./cleaned_superstore.csv)
 
